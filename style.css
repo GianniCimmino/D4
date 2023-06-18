@@ -87,18 +87,19 @@ header {
 }
 
 .child-two {
+    padding-top: 56px;
     display: flex;
     width: 50%;
     justify-content: space-between;
     box-sizing: border-box;
     align-items: center;
-    
+    margin-right: 0;
 }
 
 .c1 {
     margin-right: 20px;
     margin-top: 50px;
-    width: 100%;
+    width: 70%;
     min-width: 0;
 }
 
@@ -108,6 +109,10 @@ header {
 
 .c4 span {
     margin-left: 10px;
+}
+
+.c5 {
+    display: flex;
 }
 
 .s2 {
@@ -120,6 +125,50 @@ header {
 .img1 {
     margin-left: 100px;
     cursor: pointer;
+}
+
+.lateral-bar {
+    position: fixed;
+    right: 0;
+    padding-top: 56px;
+    height: 50%;
+}
+
+.title1 {
+    padding-bottom: 16px;
+}
+
+.s3 {
+    padding: 10px;
+    background-color: #E0E0E0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-total {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-sizing: inherit;
+    margin-bottom: 30px;
+    
+}
+
+.main-bottom a {
+    text-decoration: none;
+    color: #1A8917;
+    margin-bottom: 50px;
+    -webkit-tap-highlight-color: transparent;
+    margin: 50px;
+}
+
+.main-bottom {
+    box-shadow: 0px 3px 5px #dedede;
+}
+
+.s4 {
+    color: grey;
+    padding: 10px;
 }
 
 
